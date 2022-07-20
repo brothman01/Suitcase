@@ -1,0 +1,15 @@
+$ mkdir !!/home
+$ cp ~/.zshrc !!/home/zshrc
+$ mkdir -p !!/home && cp ~/.profile !!/home/profile
+$ mkdir -p !!/home && cp ~/Desktop !!/home/Desktop
+manual: make textfile of chrome extensions && copy to !!/chrome extensions.rtf
+$ mkdir -p !!/home && ditto ~/Documents !!/home/Documents
+manual: save mysql databases to !!/databases
+manual: save Firewall2 serial number to !!/FireWall2 SN.txt
+manual: copy slack channel info to !!/slack channels.txt
+manual: Take screenshots of installed Atom packages/settings and save all in !!/atom_stuff.rtf
+DISABLED manual: copy init.coffee to !!/init.coffee
+DISABLED manual: copy mail local mailboxes !!/mail/mailboxes
+manual: Log Out of Adobe
+manual: take a screenshot of the dock and save to !!/dock.png
+$ ditto ~/valet to !!/home/valet

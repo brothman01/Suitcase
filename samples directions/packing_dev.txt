@@ -1,0 +1,3 @@
+$ ditto ~/svn !!/svn
+$ mkdir !!/Desktop
+manual: screenshot desktop and save into !!/Desktop

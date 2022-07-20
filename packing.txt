@@ -1,0 +1,2 @@
+manual: !!/home
+$ mkdir -p !!/home && cp ~/.profile !!/home/profile

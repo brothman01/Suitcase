@@ -1,0 +1,14 @@
+$ cp !!/zshrc ~/.zshrc
+$ cp !!/home/profile ~/profile
+$ cp !!/Desktop ~/Desktop
+manual: download Google Chrome, read !!/chrome extensions.rtf and install each extension into Chrome
+$ ditto !!/home/Documents ~/Documents
+manual: copy mysql databases to databases on new computer
+manual: Download and install Firewall2, enter it's serial number from !!/FireWall2 SN.txt to activate it
+manual: log in to all slack channels from the slack channel info from !!/slack channels.txt
+manual: Download and install Atom and the packages/settings from !!/atom_stuff.rtf
+manual: copy !!/init.coffee to ~/init.coffee
+manual: log in to mail accounts in Mail
+manual: Download and log in to Adobe
+manual: rebuild the dock from the old computer using the screenshot saved at !!/dock.png
+$ ditto ~/valet to !!/home/valet
