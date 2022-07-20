@@ -27,8 +27,8 @@ ENDC = '\033[0m'
 BOLD = '\033[1m'
 UNDERLINE = '\033[4m'
 
-"""Interperets and executes a command"""
 def step(line):
+    """Interperets and executes a command"""
     if (line.startswith('##')): ## line is a comment
         my_print( UNDERLINE + line[3 :] + ENDC)
         # Skip line
@@ -54,6 +54,7 @@ def step(line):
 
 # define 'my_print()
 def my_print(words):
+    """prints text with effect"""
     for char in words:
         sleep(0.05)
         sys.stdout.write(char)
