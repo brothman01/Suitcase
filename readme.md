@@ -10,7 +10,7 @@
 
 
 ## Usage Overview
-Create a directions txt file in the same directory as the main file with one instruction per line (either shell commands to execute starting with a "$", or manual commands that cannot be executed by the shell ie: take a cell phone picture of X).  If the instruction is too complex for an instruction line and cannot be broken into nultiple lines (for instance, download a program and run the installer and enter the registration key) you may start a line with "manual:", which will print out the entered line as a written prompt that you can do and Suitcase will not move to the next command until you press 'Enter'.
+Create a directions txt file in the same directory as the main file with one instruction per line (either shell commands to execute starting with a "$", or manual commands that cannot be executed by the shell ie: take a cell phone picture of X).  If the instruction is too complex for an instruction line and cannot be broken into multiple lines (for instance, download a program and run the installer and enter the registration key) you may start a line with "manual:", which will print out the entered line as a written prompt that you can do and Suitcase will not move to the next command until you press 'Enter'.
 
 Note: As with all code, you can comment out a line during a run.  Commenting in the instructions file can be done by starting a line with '##'.
 
