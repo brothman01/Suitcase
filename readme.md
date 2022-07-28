@@ -15,11 +15,11 @@ Create a directions txt file in the same directory as the main file with one ins
 Note: As with all code, you can comment out a line during a run.  Commenting in the instructions file can be done by starting a line with '##'.
 
 ## How To Use
-First you need to pack your old computer into the suitcase.  Clone the Suitcase repository from Github, then create the packing instructions text file in the same directory as the python file. You can then run the program with the following command to pack your old computer:
+First you need to pack your old computer into the suitcase.  Start by cloning the Suitcase GitHub repo onto your old computer and create the instructions file (example files can be found in the 'Sample Instructions' directory) in the same directory as the python file. You can then run the program with the following command to pack your old computer:
 
 `python3 suitcase.py -p packing_filename.txt`
 
-Once you have packed your old computer into the suitcase, you need to unpack the suitcase on your new computer to preserve the files and settings.  Copy the 'Suitcase' directory onto removable media, copy that directory from the removable media onto the new computer and run suitcase again, but this time with the argument shown below to unpack the suitcase:
+Once you have packed your old computer into the suitcase, you need to unpack the suitcase on your new computer to preserve the files and settings.  Copy the whole 'Suitcase' directory onto removable media, then copy that directory from the removable media onto the new computer and replace the packing instructions file you made with a new, similar unpacking instructions file (examples can be found in the "Sample Instructions' directory).  When the unpacking instructions file is in place, run suitcase again but this time with the argument shown below to unpack the suitcase:
 
 `python3 suitcase.py -u unpacking_filename.txt`
 
