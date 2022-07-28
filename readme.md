@@ -23,4 +23,13 @@ Once you have packed your old computer into the suitcase, you need to unpack the
 
 `python3 suitcase.py -u unpacking_filename.txt`
 
+## Instruction File Notes:
+- Use '$ ' before a command for it to be executed as a shell command.
+
+- Use 'manual: ' before a command for it to be printed to the terminal and await a 'return' from the user before continuing.  Think of it like a reminder to do something yourself.
+
+- Comment lines out or add lines as notes by adding '## ' to the start of a line
+
+- Use '!!/' at the beginning of a path as a way to refer to the suitcase directory in the instructions file.  So for instance !!/desktop would refer to a directory named 'desktop' inside of the suitcase directory.
+
 Enjoy!
