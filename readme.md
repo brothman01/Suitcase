@@ -34,4 +34,11 @@ Once you have packed your old computer into the suitcase, you need to unpack the
 
 - Use '!!/' at the beginning of a path as a way to refer to the suitcase directory in the instructions file.  So for instance !!/desktop would refer to a directory named 'desktop' inside of the suitcase directory.
 
+## FAQ
+### The command is not finding my directions file, what should I do?
+Make sure you did not use spaces in the filename and that the directions file is in the same folder as local-composer.py
+
+### Is this program in any way associated with Symfony Composer?
+No.  In no way.  Symfony's Composer was part of the inspiration for the idea but there is no commonality.
+
 Enjoy!
