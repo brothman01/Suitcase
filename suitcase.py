@@ -74,7 +74,7 @@ my_print('Welcome to Suitcase ' + str(today))
 if (not os.path.exists('suitcase')):
     os.system('mkdir suitcase')
 
-
+# get values from the shell command
 option = options[0]
 instructions_file = options[1]
 
