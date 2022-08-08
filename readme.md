@@ -3,9 +3,9 @@
 </h1>
 
 <p align="center">A program to run to migrate your files and settings to a new computer. First, run it on the old computer to automate the copying of your files and settings into a suitcase directory (pack). Then, you copy the suitcase directory onto the new computer and you run the program again in unpacking mode to unpack the suitcase directory and copy all of your old files and settings onto the new computer with the file and folder structures preserved (unpack).</p>
-
+**NOT affiliated with Symfony or part of Symfony Composer**
 <p align="center">
-	**NOT affiliated with Symfony or part of Symfony Composer**<br />
+	<br />
 	<img src="https://img.shields.io/badge/python-v3.7-blue" alt="Python Version">
 </p>
 
