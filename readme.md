@@ -1,10 +1,10 @@
-<h1 align="center">Suitcase - By Ben Rothman
+<h1 align="center">Local Composer - By Ben Rothman
 	<img src="https://img.shields.io/static/v1?ConciergeWPVersion=&message=v1.0.0&label=&color=999&style=flat-square">
 </h1>
 
 <p align="center">A program to run to migrate your files and settings to a new computer. First, run it on the old computer to automate the copying of your files and settings into a suitcase directory (pack). Then, you copy the suitcase directory onto the new computer and you run the program again in unpacking mode to unpack the suitcase directory and copy all of your old files and settings onto the new computer with the file and folder structures preserved (unpack).</p>
 
-<p align="center">
+<p align="center">NOT affiliated with Symfony Composer
 		<img src="https://img.shields.io/badge/python-v3.7-blue" alt="Python Version">
 </p>
 
