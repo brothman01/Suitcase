@@ -1,5 +1,5 @@
-# Suitcase by Ben Rothman
-# python3 suitcase.py -<u|p|h> instructions_file.txt
+# Local Composer by Ben Rothman
+# python3 local-composer.py -<u|p|h> <instructions_file.txt>
 import os
 import re
 import sys
@@ -75,6 +75,7 @@ if (not os.path.exists('suitcase')):
     os.system('mkdir suitcase')
 
 
+# get values from the shell command
 option = options[0]
 instructions_file = options[1]
 
