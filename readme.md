@@ -3,12 +3,12 @@
 </h1>
 
 <p align="center">A program to run to migrate your files and settings to a new computer. First, run it on the old computer to automate the copying of your files and settings into a suitcase directory (pack). Then, you copy the suitcase directory onto the new computer and you run the program again in unpacking mode to unpack the suitcase directory and copy all of your old files and settings onto the new computer with the file and folder structures preserved (unpack).</p>
-## NOT affiliated with Symfony or part of Symfony Composer
 <p align="center">
 	<br />
 	<img src="https://img.shields.io/badge/python-v3.7-blue" alt="Python Version">
 </p>
 
+## NOT affiliated with Symfony or part of Symfony Composer
 
 ## Usage Overview
 Create a directions txt file in the same directory as the main file with one instruction per line (either shell commands to execute starting with a "$", or manual commands that cannot be executed by the shell ie: take a cell phone picture of X).  If the instruction is too complex for an instruction line and cannot be broken into multiple lines (for instance, download a program and run the installer and enter the registration key) you may start a line with "manual:", which will print out the entered line as a written prompt that you can do and Suitcase will not move to the next command until you press 'Enter'.
