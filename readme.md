@@ -7,6 +7,7 @@
 	<br />
 	<img src="https://img.shields.io/badge/python-v3.7-blue" alt="Python Version">
 </p>
+
 ## NOT affiliated with Symfony or part of Symfony Composer
 
 ## Usage Overview
