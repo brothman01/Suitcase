@@ -7,8 +7,7 @@
 	<br />
 	<img src="https://img.shields.io/badge/python-v3.7-blue" alt="Python Version">
 </p>
-
-<p style="color: red;">## NOT affiliated with Symfony or part of Symfony Composer</p>
+## NOT affiliated with Symfony or part of Symfony Composer
 
 ## Usage Overview
 Create a directions txt file in the same directory as the main file with one instruction per line (either shell commands to execute starting with a "$", or manual commands that cannot be executed by the shell ie: take a cell phone picture of X).  If the instruction is too complex for an instruction line and cannot be broken into multiple lines (for instance, download a program and run the installer and enter the registration key) you may start a line with "manual:", which will print out the entered line as a written prompt that you can do and Suitcase will not move to the next command until you press 'Enter'.
