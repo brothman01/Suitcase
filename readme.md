@@ -1,6 +1,5 @@
 <h1 align="center">Local Composer - By Ben Rothman
 	<img src="https://img.shields.io/static/v1?ConciergeWPVersion=&message=v1.0.0&label=&color=999&style=flat-square"><br />
-	(NOT affiliated with Symfony or Symfony Composer)
 </h1>
 <p align="center">
 	(NOT affiliated with Symfony or Symfony Composer)
