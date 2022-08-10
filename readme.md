@@ -19,7 +19,7 @@ If the instruction is too complex for an instruction line and cannot be broken i
 Note: As with all code, you can comment out a line so that it will not be run.  Commenting in the instructions file can be done by starting a line with '##'.
 
 ## How To Use
-First you need to pack your old computer into a "suitcase".  Start by cloning the local-composer GitHub repo onto your old computer and create the instructions file (example files can be found in the 'Sample Instructions' directory) in the same directory as the python file. You can then run the program with the following command to pack your old computer:
+First you need to pack your old computer into a "suitcase".  Start by cloning the local-composer GitHub repo onto your old computer and creating the instructions file (example files can be found in the 'Sample Instructions' directory) in the same directory as the python file. You can then run the program with the following command to pack your old computer:
 
 `python3 local-composer.py -p packing_filename.txt`
 
