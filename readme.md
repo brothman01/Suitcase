@@ -27,7 +27,7 @@ Once you have packed your old computer into a suitcase, you need to unpack the s
 
 `python3 local-composer.py -u unpacking_filename.txt`
 
-## Instruction File Notes:
+## Instruction File Documentation:
 - Use '$ ' before a command for it to be executed as a shell command.
 
 - Use 'manual: ' before a command for it to be printed to the terminal and await a 'return' from the user before continuing.  Think of it like a reminder to do something yourself.
