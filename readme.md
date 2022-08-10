@@ -12,7 +12,7 @@
 </p>
 
 ## Usage Overview
-Create a directions txt file in the same directory as local-composer.py file with one instruction per line (either shell commands to execute starting with a "$", or manual commands that cannot be executed by the shell ie: take a cell phone picture of X).  If the instruction is too complex for an instruction line and cannot be broken into multiple lines (for instance, download a program and run the installer and enter the registration key) you may start a line with "manual:", which will print out the entered line as a written prompt that you can do and Local Composer will not move to the next command until you press 'Enter', confirming that the manual command is done.
+Create a directions txt file in the same directory as `local-composer.py` with one instruction per line (either shell commands to execute starting with a "$", or manual commands that cannot be executed by the shell ie: take a cell phone picture of X).  If the instruction is too complex for an instruction line and cannot be broken into multiple lines (for instance, download a program and run the installer and enter the registration key) you may start a line with "manual:", which will print out the entered line as a written prompt that you can do and Local Composer will not move to the next command until you press 'Enter', confirming that the manual command is done.
 
 Note: As with all code, you can comment out a line so that it will not be run.  Commenting in the instructions file can be done by starting a line with '##'.
 
