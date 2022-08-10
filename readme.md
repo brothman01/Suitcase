@@ -14,8 +14,6 @@
 ## Usage Overview
 Create a directions txt file in the same directory as `local-composer.py` with one instruction per line (either shell commands to execute starting with a "$", or manual commands that cannot be executed by the shell ie: take a cell phone picture of X and just serve as reminders to the human operator to do a certain thing).
 
-If the instruction is too complex for an instruction line and cannot be broken into multiple lines (for instance, download a program and run the installer and enter the registration key) you may start a line with "manual:", which will print out the entered line as a written prompt that you can do and Local Composer will not move to the next command until you press 'Enter', confirming that the manual command is done.
-
 Note: As with all code, you can comment out a line so that it will not be run.  Commenting in the instructions file can be done by starting a line with '##'.
 
 ## How To Use
@@ -30,17 +28,17 @@ Once you have packed your old computer into a suitcase, you need to unpack the s
 ## Instruction File Documentation:
 - Use '$ ' before a command for it to be executed as a shell command.
 
-- Use 'manual: ' before a command for it to be printed to the terminal and await a 'return' from the user before continuing.  Think of it like a reminder to do something yourself.
+- Use 'manual: ' before a command for it to be printed to the terminal, which will then await a 'return' from the user before continuing.  Think of it like these lines as reminders to do things yourself.
 
 - Comment lines out or add lines as notes by adding '## ' to the start of a line
 
-- Use '!!/' at the beginning of a path as a way to refer to the suitcase directory in the instructions file.  So for instance !!/desktop would refer to a directory named 'desktop' inside of the suitcase directory.
+- Use '!!/' at the beginning of a path as a way to refer to the suitcase directory from within the instructions file.  So for instance !!/desktop would refer to a directory named 'desktop' inside of the suitcase directory.
 
 ## FAQ
 ### The command is not finding my directions file, what should I do?
 Make sure you did not use spaces in the filename and that the directions file is in the same folder as local-composer.py
 
 ### Is this program in any way associated with Symfony Composer?
-No.  In no way.  Symfony's Composer was part of the inspiration for the idea but there is no commonality.
+No.  In no way.  Symfony's Composer was part of the inspiration for the idea because that is a very nice piece of software but there is no relation.
 
 Enjoy!
