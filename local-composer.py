@@ -1,4 +1,5 @@
 # Local Composer by Ben Rothman
+# Quick little tool to spin-up a new computer to act like your old one so it's like you are on the same computer by migrating old files and settings.
 # python3 local-composer.py -<u|p|h> <instructions_file.txt>
 import os
 import re
