@@ -1,5 +1,5 @@
-<h1 align="center">Local Composer - By Ben Rothman
-	<img src="https://img.shields.io/static/v1?ConciergeWPVersion=&message=v1.0.0&label=&color=999&style=flat-square"><br />
+<h1 align="center">Local Composer 2 - By Ben Rothman
+	<img src="https://img.shields.io/static/v1?ConciergeWPVersion=&message=v2.0.0&label=&color=999&style=flat-square"><br />
 </h1>
 <p align="center">
 	(NOT affiliated with Symfony or Symfony Composer)
@@ -12,18 +12,23 @@
 </p>
 
 ## Usage Overview
-Create a directions txt file in the same directory as `local-composer.py` with one instruction per line (either shell commands to execute starting with a "$", or manual commands that cannot be executed by the shell ie: take a cell phone picture of X and just serve as reminders to the human operator to do a certain thing).
+Enter create mode and choose things you want to install from our library and instructions to install those things will be added to a directions file in the same directory as `local-composer.py`. The file will have one instruction per line (either shell commands to execute starting with a "$", or manual commands that cannot be executed by the shell ie: take a cell phone picture of X and just serve as reminders to the human operator to do a certain thing).  You can customize the directions file and add your own commands in addition to the library commands.
 
 Note: As with all code, you can comment out a line so that it will not be run.  Commenting in the instructions file can be done by starting a line with '##'.
 
 ## How To Use
-First you need to pack your old computer into a "suitcase".  Start by cloning the local-composer GitHub repo onto your old computer and creating the instructions file (example files can be found in the 'Sample Instructions' directory) in the same directory as the python file. You can then run the program with the following command to pack your old computer:
+local-composer is a migration tool for when you get a new computer and you have to set it up by copying things from your old computer and you have to install things from the internet.
 
-`python3 local-composer.py -p packing_filename.txt`
+### On the old computer:
+1. Execute `python3 local-composer.py create packing packing_{filename}.txt` to create an instructions file for local-composer.
+2. You will be shown a menu where you can choose to copy common files from your original computer so make your selections based on what you want to save.
+3. When you are done building the packing list, you can start the packing with the command: `python3 local-composer.py -p packing_{filename}.txt`
+4. Copy the whole 'local-composer' directory onto removable media from the old computer.
 
-Once you have packed your old computer into a suitcase, you need to unpack the suitcase on your new computer preserving the files and settings.  Copy the whole 'local-composer' directory onto removable media from the old computer, then copy that folder from the removable media onto the new computer. Replace the packing instructions file you made with a new, similar unpacking instructions file (examples can be found in "Sample Instructions').  When the unpacking instructions file is in place, run Local Composer again but this time with the argument shown below to unpack the suitcase:
-
-`python3 local-composer.py -u unpacking_filename.txt`
+### On the new comoputer:
+1. Copy the local-composer directory from the removable media onto the new computer.
+2. Execute `python3 local-compooser.py create unpacking unpacking_{filename}.txt` to build the unpacking instructions file from the options in our library.
+3. When the unpacking instructions file is finished and in place, run Local Composer again but this time with the argument shown: `python3 local-composer.py -u unpacking_{filename}.txt`
 
 ## Instruction File Documentation:
 - Use '$ ' before a command for it to be executed as a shell command.

@@ -63,6 +63,14 @@ def my_print(words):
     sys.stdout.write("\n")
 
 
+def read_library(mode):
+    library_path = os.path.dirname(os.path.abspath(__file__)) + "/library/"
+    options = os.listdir(library_path + mode)
+    counter = 1
+    for option in options:
+        print(str(counter) + '. ' + option)
+        counter = counter + 1
+
 
 
 
@@ -81,8 +89,17 @@ option = options[0]
 instructions_file = options[1]
 
 # Behave based on arguments
-if (option == '-h' or option == '-help'): # help
+if (option == 'create'): #create mode
+    mode = options[1]
+    filename = options[2]
+    my_print(UNDERLINE + 'Create Mode Selected (pick all of the options separated with commas that you want to save from your old computer and copy to your new one)' + ENDC)
+    print("mode: " + mode + ' filemame: ' + filename)
+    library_options = read_library(mode)
+
+elif (option == '-h' or option == '-help'): # help
     print('-----')
+    print(UNDERLINE + 'create' + ENDC)
+    my_print('This option overrides the options and enters something called Create Mode, where you, the user, can pick things to install from our library of things to install and those things will be added to your instructions file.')
     print(UNDERLINE + '-h | help' + ENDC)
     my_print('This option my_prints out the different options that can be used to run the suitcase.')
     my_print('')
