@@ -12,9 +12,9 @@
 </p>
 
 ## Usage Overview - V1 TO V2 UNDER CONSTRUCTION
-Enter create mode and choose things you want to install from our library and instructions to install those things will be added to a directions file in the same directory as `local-composer.py`. The file will have one instruction per line (either shell commands to execute starting with a "$", or manual commands that cannot be executed by the shell ie: take a cell phone picture of X and just serve as reminders to the human operator to do a certain thing).  You can customize the directions file and add your own commands in addition to the library commands.
+Enter create mode and choose things you want to install from our library and instructions to install those things will be added to a directions file in the same directory as `local-composer.py`. The file will have one instruction per line.  You can customize the directions file and add your own commands in addition to the library commands.
 
-Note: As with all code, you can comment out a line so that it will not be run.  Commenting in the instructions file can be done by starting a line with '##'.
+Note: As with most code, you can comment out a line so that it will not be run.  Commenting in the instructions file can be done by starting a line with '##'.
 
 ## How To Use
 local-composer is a migration tool for when you get a new computer and you have to set it up by copying things from your old computer and you have to install things from the internet.
