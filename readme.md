@@ -27,7 +27,7 @@ local-composer is a migration tool for when you get a new computer and you have 
 
 ### On the new comoputer:
 1. Copy the local-composer directory from the removable media onto the new computer.
-2. Execute `python3 local-compooser.py unpack {filename}` to unpack your suitcase.
+2. Execute `python3 local-compooser.py -u {filename}` to unpack your suitcase.
 
 ## Instruction File Documentation (How to read or add manual steps):
 - Start a line with '$ '  for it to be executed as a shell command.
